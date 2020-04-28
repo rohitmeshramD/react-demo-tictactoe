@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Game from "./Game";
+import Game from "./tic-tac-toe/Game";
 
-// ! Main Renderer
-
+// ! tic tac toe Renderer
 ReactDOM.render(<Game />, document.getElementById("root"));
